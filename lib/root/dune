@@ -1,0 +1,4 @@
+(library
+ (name root)
+ (modes melange)
+ (libraries melange-webapi))

@@ -1,0 +1,13 @@
+(melange.emit
+ (target output)
+ 
+ (alias frontend)
+ 
+ (modules :standard)
+
+ (libraries root)
+ 
+ (preprocess
+  (pps melange.ppx))
+ 
+ (module_systems es6))
